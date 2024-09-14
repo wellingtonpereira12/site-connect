@@ -1,0 +1,137 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bungee', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero section */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Fullscreen */
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the screen */
+  z-index: -1; /* Send the image to the background */
+}
+
+/* Navigation */
+.nav-menu {
+  display: flex;
+  flex-direction: row; /* Alinha itens horizontalmente */
+  align-items: center;
+  padding: 120px 20px; /* Ajuste o padding conforme necessário */
+  position: fixed; /* Fixa o menu no topo */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(233, 230, 230, 0); /* Adiciona fundo semi-transparente */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.nav-menu.scrolled {
+  background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
+  padding: 20px 20px; /* Ajuste o padding conforme necessário */
+  
+}
+
+.logo {
+  height: 100px; /* Altura ajustada */
+  transition: height 0.3s ease;
+  top: 10;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  padding: 00px 400px; /* Ajuste o padding conforme necessário */
+  position: fixed; /* Fixa o menu no topo */  
+}
+
+.logo.scrolled {
+  height: 80px; /* Altura reduzida ao rolar */
+}
+
+h1 {
+  font-size: 2.5rem; /* Tamanho ajustado */
+  height: 100px; /* Altura ajustada */
+  transition: height 0.3s ease;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  padding: 00px 540px; /* Ajuste o padding conforme necessário */
+  position: fixed; /* Fixa o menu no topo */  
+}
+
+.h1.scrolled {
+  font-size: 2rem; /* Tamanho reduzido ao rolar */
+}
+
+ul {
+  display: flex;
+  gap: 10px; /* Espaçamento reduzido entre itens do menu */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 1rem; /* Tamanho de fonte ajustado */
+  color: white;
+  transition: color 0.3s ease;
+}
+
+ul li a.scrolled {
+  color: #000000; /* Cor alterada ao rolar */
+}
+
+/* Seções */
+.section {
+  padding: 100px 20px;
+  background-color: #f4f4f4;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+#servico {
+  background-color: #e3e3e3;
+}
+
+#sobre-nos {
+  background-color: #d3d3d3;
+}
+
+#duvidas {
+  background-color: #c3c3c3;
+}
