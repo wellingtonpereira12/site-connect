@@ -1,30 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
 *,*::before{
     margin: 0;
     box-sizing: border-box;
 }
+
 html{
-    font-size: 62.5%;
+    font-size: 80.5%;
 }
+
 body{
-    font-size: 1.6rem;
+    font-size: 1.78rem;
 }
+
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
+
+a.scrolled{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 8vh;
     background: rgba(0, 0, 73, 0);
+    flex-direction: row; /* Alinha itens horizontalmente */
+    padding: 120px 400px; /* Ajuste o padding conforme necessário */
+    position: fixed; /* Fixa o menu no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0); /* Adiciona fundo semi-transparente */
+    transition: background-color 0.3s ease, padding 0.3s ease;
 }
+
+.nav.scrolled {
+    background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
+    padding: 20px 400px; /* Ajuste o padding conforme necessário */
+}
+
 .nav_brand{
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 200.5%;
+    font-family: 'Bungee', cursive; /* Define a fonte Bungee */
+    font-weight: normal; /* Garante que a fonte não será em negrito */
+}
+.nav_brand.scrolled{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 150.5%;
+    font-family: 'Bungee', cursive; /* Define a fonte Bungee */
+    font-weight: normal; /* Garante que a fonte não será em negrito */
 }
 .nav_menu {
     display: flex;
@@ -32,6 +70,7 @@ a{
     justify-content: space-around;
     gap: 3rem;
     transition: 0.4s ease-in;    
+    font-family: 'Archivo', cursive; /* Define a fonte Bungee */
 }
 .nav_toggler div{
     width: 2.5rem;
@@ -43,6 +82,72 @@ a{
     cursor: pointer;
     display: none;
 }
+
+.containerlogo {
+    display: flex;
+    justify-content: space-between; /* ou 'center', 'flex-start', 'flex-end' */
+    align-items: center; /* Alinha os itens verticalmente */
+}    
+
+.logo {
+    width: 100px; /* Defina a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.logo.scrolled {
+    width: 70px; /* Defina a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.ContainerNome {
+    display: flex;
+    flex-direction: column; /* Coloca os links um abaixo do outro */
+    line-height: 0.8;
+}
+
+.ContainerNome.scrolled {
+    display: flex;
+    flex-direction: column; /* Coloca os links um abaixo do outro */
+    line-height: 0.4;
+}
+  
+.ContainerNome a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: rgb(255, 255, 255); /* Define a cor dos links */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+.ContainerNome a.scrolled {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: rgb(78, 78, 78); /* Define a cor dos links */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+
+.nomeEmpresa{
+    font-family: 'Bungee', sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.DescrEmpresa{
+    font-family: 'Bungee', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.nomeEmpresa.scrolled{
+    font-family: 'Bungee', sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.DescrEmpresa.scrolled{
+    font-family: 'Bungee', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
 
 @media screen and (max-width: 768px){
     .nav_toggler {
