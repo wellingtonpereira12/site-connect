@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist'  // Diretório de saída para o build
+  },
+  server: {
+    port: 10000
   }
 })
