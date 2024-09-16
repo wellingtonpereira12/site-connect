@@ -1,12 +1,10 @@
 import React from "react";
-import '../Section.css';
 
 function Duvidas() {
     return (
-        <section id="duvidas" className="section">
-         <h1 className="section-title">duvidas</h1>
-         <p>Conteúdo da seção duvidas.</p>
-      </section>
+        <section id="duvidas" className="">
+            <h1 className="">duvidas</h1>
+        </section>
     )
 }
 

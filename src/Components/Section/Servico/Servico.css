@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+  /* Estilo do quadrado */
+.squareInf {
+    width: 542px;
+    height: 541px;
+    background-color: #E2E2E2;
+    border-radius: 10px; /* Define bordas arredondadas */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+
+.squareInfhover{
+    background-color: #D17339; /* Cor de fundo ao passar o mouse */
+    width: 542px;
+    height: 541px;
+    border-radius: 10px; /* Define bordas arredondadas */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+}
+
+.squareInfDet{
+    display: flex; /* Alinha as divs lado a lado */
+    justify-content: space-around; /* Espaçamento entre os elementos */
+    align-items: center; /* Centraliza verticalmente as divs */
+    height: 60vh;
+    width: 100%;
+    padding: 0px 70px;  /*aproximou as divs */
+}
+
+.square {
+    width: 1280px;
+    height: 902px;
+    background-color: #F5F5F5;
+    border-radius: 50px; /* Define bordas arredondadas */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionServico {
+    padding: 40px 40px;
+    background-color: #ffffff;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 30px 0px;
+    font-family: 'Bungee', sans-serif;
+    font-size: 35px;
+    color: #3A3A3A;
+}
+
+.descricao{
+    text-align: center;
+    font-family: 'Archivo', cursive;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #3A3A3A; /* Define a cor dos links */
+    font-weight: bold;  
+    letter-spacing: 4px;      
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%; /* Transforma o quadrado em um círculo */
+    margin: 20px; /* Espaçamento entre os links */
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    transition: background-color 1s;
+}
+
+.circlehover {
+    width: 150px;
+    height: 150px;
+    background-color: #FFBA7B;
+    border-radius: 50%; /* Transforma o quadrado em um círculo */
+    margin: 20px; /* Espaçamento entre os links */
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    transition: background-color 1s;
+}
+
+.squareLogo {
+    width: 88px;
+    height: 88px;
+    background-color: #ffffff;
+    border-radius: 20px; /* Define bordas arredondadas */
+    border: 5px solid #3A3A3A;
+    transition: background-color 1s;
+}   
+
+.squareLogoHover {
+    width: 88px;
+    height: 88px;
+    background-color: #FFAF82;
+    border-radius: 20px; /* Define bordas arredondadas */
+    border: 5px solid #ffffff;
+    transition: background-color 1s;
+}   
+
+.orizontal-line {
+    width: 57px; /* Espessura da linha */
+    height: 5px; /* Comprimento da linha (ajuste conforme necessário) */
+    background-color: #3A3A3A; /* Cor da linha */
+    border: none; /* Remove qualquer borda adicional */
+    margin: 11.3px;
+    transition: background-color 1s;
+}
+
+.orizontal-lineHover {
+    width: 57px; /* Espessura da linha */
+    height: 5px; /* Comprimento da linha (ajuste conforme necessário) */
+    background-color: #ffffff; /* Cor da linha */
+    border: none; /* Remove qualquer borda adicional */
+    margin: 11.3px;
+    transition: background-color 1s;
+}
+
+.textoTitulo{
+    font-family: 'Archivo', cursive;
+    font-size: 30px; 
+    margin: 15px;
+    letter-spacing: 6px;  
+    color: #3A3A3A;
+    transition: background-color 1s;
+}
+
+.textoTituloHover{
+    font-family: 'Archivo', cursive;
+    font-size: 30px; 
+    margin: 15px;
+    letter-spacing: 6px;  
+    color: #ffffff;
+    transition: background-color 1s;
+}
+
+.descricaoEsp{
+    font-family: 'Archivo', cursive;
+    font-size: 20px; 
+    margin: 15px; 
+    letter-spacing: 1px;  
+    color: #3A3A3A;
+    transition: background-color 1s;
+}
+
+.descricaoEspHover{
+    font-family: 'Archivo', cursive;
+    font-size: 20px; 
+    margin: 15px; 
+    letter-spacing: 1px;  
+    color: #ffffff;
+    transition: background-color 1s;
+}
+
+.fundoBotao2 {
+    width: 181px;
+    height: 144px;
+    background-color: #F5F5F5;
+    justify-content: center;
+    margin: 32px;
+    margin-left: 361px;
+    border-top-left-radius: 50px;
+    display: flex;
+    justify-content: End;
+    align-items: End;
+}
+
+.fundoBotao1 {
+    width: 181px;
+    height: 144px;
+    background-color: #F5F5F5;
+    justify-content: center;
+    margin: -5px;
+    margin-left: 361px;
+    border-top-left-radius: 50px;
+    display: flex;
+    justify-content: End;
+    align-items: End;
+}
+
+.botaoServico {
+    width: 154px;
+    height: 115px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;  
+    border-radius: 30px;
+    font-family: 'Archivo', cursive;
+    font-size: 20px; 
+    color: #3A3A3A;
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 1s; /* Transição suave */
+}
+
+.botaoServicoHover {
+    width: 154px;
+    height: 115px;
+    background-color: #D17339;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;  
+    border-radius: 30px;
+    font-family: 'Archivo', cursive;
+    font-size: 20px; 
+    color: #ffffff;
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 1s;
+}
+
+.botaoServicoHover:hover {
+    background-color: #d13939;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 1s;
+}
+
+
+@media screen and (max-width: 1350px){
+    .squareInfDet{
+        display: grid;
+        place-items: center; /* Alinha tanto horizontalmente quanto verticalmente */
+        height: 100vh; /* Faz o container ocupar 100% da altura da tela */
+        margin-top: 20px; 
+        margin-bottom: 20px;
+        gap: 20px
+    }
+    .square {
+        height: 1400px;
+    }
+
+}

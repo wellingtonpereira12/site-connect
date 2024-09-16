@@ -1,11 +1,21 @@
 import React from "react";
-import '../Section.css';
+import foto from '../../../assets/Wellington.png';
+import './Sobre.css';
 
-function Sobre() {
+
+const Sobre = () => {
     return (
-        <section id="sobre-nos" className="section">
-            <h1 className="section-title">sobre</h1>
-            <p>Conteúdo da seção sobre.</p>
+        <section id="sobre-nos" className="sobreSectionSobre">
+            <div>
+                <h1 className="sobreTitulo">Nossa Equipe</h1>
+                <div className="sobreContainer" >
+                    <h1 className="sobreh1">msg</h1>
+                    <div className="sobreContainerImg">
+                        <div className="sobreDetalheImg"></div>
+                        <img src={foto} alt="img" className="sobreImg" />
+                    </div> 
+                </div>    
+            </div>
         </section>
     )
 }

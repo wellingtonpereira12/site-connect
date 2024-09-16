@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+
+.sobreSectionSobre {
+    background-color: #1F2428;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreTitulo {
+    font-family: 'Bungee', cursive; 
+    font-weight: normal; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 60px 0px;
+}
+
+.sobreContainer{
+    position: relative; 
+    justify-content: center;
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sobreh1{
+    width: 690px;
+    height: 510px;
+    background-color: aqua;
+}
+
+.sobreContainerImg {
+    position: relative; /* Necessário para que .sobreDetalheImg seja posicionado em relação a este contêiner */
+    width: 690px;
+    height: 510px;
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreDetalheImg {
+    position: absolute; /* Faz com que a div seja posicionada sobre a imagem */
+    bottom: 0px; /* Define a distância da parte inferior da imagem */
+    right: 0px;  /* Define a distância do lado direito da imagem */
+    width: 230px; /* Ajuste conforme necessário */
+    height: 133px; /* Ajuste conforme necessário */
+    background-color: #1F2428;
+    border-radius: 50px 0 0 0;
+}
+
+.sobreImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 10px 20px;
+}

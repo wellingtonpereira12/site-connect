@@ -149,7 +149,7 @@ a.scrolled{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1700px){
     .nav_toggler {
         display: block;
     }
@@ -157,19 +157,57 @@ a.scrolled{
         position: fixed;
         top: 7vh;
         right: 0;
-        width: 50%;
+        width: 40%;
         height: 93vh;
         background: rgb(255, 255, 255);
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;
     }
+    .nav {
+        background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
+        padding: 20px 0px; /* Ajuste o padding conforme necessário */
+    }
+    .nav.scrolled {
+        background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
+        padding: 20px 0px; /* Ajuste o padding conforme necessário */
+    }
+    .logo {
+        width: 60px; /* Defina a largura */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    .logo.scrolled {
+        width: 60px; /* Defina a largura */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    .ContainerNome {
+        display: flex;
+        flex-direction: column; /* Coloca os links um abaixo do outro */
+        line-height: 0.4;
+    }
+    .ContainerNome a {
+        text-decoration: none; /* Remove sublinhado dos links */
+        color: rgb(78, 78, 78); /* Define a cor dos links */
+        margin-bottom: 10px; /* Espaçamento entre os links */
+    }
+    .nomeEmpresa{
+        font-family: 'Bungee', sans-serif;
+        font-size: 40px;
+        margin: 10px;
+    }
+    .DescrEmpresa{
+        font-family: 'Bungee', sans-serif;
+        font-size: 20px;
+        margin: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(68, 68, 68);
+    }   
 }
-
 .nav_active{
     transform: translateX(0);  
 }
-
 .toggler .line1{
     transform: rotate(-45deg) translate(-4px, 5px);
 }
