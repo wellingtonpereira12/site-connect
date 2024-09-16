@@ -14,7 +14,7 @@ function Home() {
                 <img src={fundoInicio} alt="fundoInicio" className="hero-image" />
                 <div className="textoSobrepostoPrinciapal">
                     <div className="textoSobreposto">
-                        <h1>Connect sua Marca</h1>
+                        <h1>Conecte sua Marca</h1>
                         <h1>na Internet</h1>
                     </div> 
                     <div className="textoSobrepostoDescr"> 

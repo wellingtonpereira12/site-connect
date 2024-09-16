@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logoConnect from './assets/logoConnect.png';
+import logoReactLogo from './assets/ReactLogo.png';
 import fundoInicio from './assets/fundoInicio.png';
 import './Inicio.css';
 
@@ -21,8 +21,8 @@ function Inicio() {
       <section id="inicio">
         <div className="hero-container">
           <img src={fundoInicio} alt="fundoInicio" className="hero-image" />
-          <h1 className={`h1 ${scrolled ? 'scrolled' : ''}`}>Connect</h1>
-          <img src={logoConnect} alt="Logo Connect" className={`logo ${scrolled ? 'scrolled' : ''}`} />
+          <h1 className={`h1 ${scrolled ? 'scrolled' : ''}`}>React</h1>
+          <img src={logoReactLogo} alt="Logo React" className={`logo ${scrolled ? 'scrolled' : ''}`} />
           <nav className={`nav-menu ${scrolled ? 'scrolled' : ''}`}>
           <ul>
               <li><a href="#inicio" className={scrolled ? 'scrolled' : ''}>Início</a></li>

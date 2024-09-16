@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logoConnect from '../../assets/logoConnect.png'
+import logo from '../../assets/ReactLogo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -31,9 +31,9 @@ const Navbar = () => {
         <div className="navbar">
             <nav className={`nav  ${scrolled ? 'scrolled' : ''}`}>
                 <div className='containerlogo'>
-                    <img src={logoConnect} alt="logoConnect" className={`logo ${scrolled ? 'scrolled' : ''}`}/>
+                    <img src={logo} alt="ReactLogo" className={`logo ${scrolled ? 'scrolled' : ''}`}/>
                     <div className={`ContainerNome ${scrolled ? 'scrolled' : ''}`}>
-                        <a href="#" className={`nomeEmpresa ${scrolled ? 'scrolled' : ''}`} >Connect</a>
+                        <a href="#" className={`nomeEmpresa ${scrolled ? 'scrolled' : ''}`} >React</a>
                         <a href="#" className={`DescrEmpresa ${scrolled ? 'scrolled' : ''}`} >Desenvolvimento Web</a>
                     </div>
                 </div>
