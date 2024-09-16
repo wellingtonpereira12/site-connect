@@ -7,6 +7,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px;
+}
+
+.sobreSectionSobre div{
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .sobreTitulo {
@@ -17,23 +24,103 @@
     justify-content: center;
     font-size: 35px;
     color: #ffffff;
-    padding: 60px 0px;
+    padding-bottom: 50px;
 }
 
-.sobreContainer{
+.sobreContainer {
     position: relative; 
-    justify-content: center;
-    overflow: hidden;
+    overflow: visible; /* Permite que os filhos se sobreponham às bordas do contêiner */
     display: inline-block;
     align-items: center;
     justify-content: center;
+    margin-right: 500px; 
+}
+
+.sobreContainerH1 {
+    position: absolute; /* Posiciona a nova div */
+    top: 10px; /* Ajuste conforme necessário */
+    left: 70%; /* Centraliza horizontalmente */
+    width: 728px; /* Define largura fixa */
+    height: auto; /* Define altura fixa */
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    z-index: 9; /* Garante que a nova div fique atrás do título */
+    display: flex; /* Permite centralizar o texto verticalmente */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Alinha o texto horizontalmente no centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+.sobreContainerH1Nome {
+    position: absolute; /* Posiciona a nova div */
+    top: 250px; /* Ajuste conforme necessário */
+    left: 115%; /* Centraliza horizontalmente */
+    width: 303px; /* Define largura fixa */
+    height: auto; /* Define altura fixa */
+    z-index: 9; /* Garante que a nova div fique atrás do título */
+    display: flex; /* Permite centralizar o texto verticalmente */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Alinha o texto horizontalmente no centro */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+.sobreh1 {
+    width: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    height: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding se não for necessário */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+    overflow: hidden; /* Esconde o texto que ultrapassa o tamanho definido */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    word-wrap: break-word; /* Quebra palavras longas para evitar ultrapassar o contêiner */
+    overflow-wrap: break-word; /* Garante que palavras longas quebrem conforme necessário */
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    color: #3A3A3A;
+    font-size: 35px;
+    font-family: 'Archivo', cursive; 
+    line-height: 45px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.sobreh1Nome {
+    width: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    height: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding se não for necessário */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+    overflow: hidden; /* Esconde o texto que ultrapassa o tamanho definido */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    word-wrap: break-word; /* Quebra palavras longas para evitar ultrapassar o contêiner */
+    overflow-wrap: break-word; /* Garante que palavras longas quebrem conforme necessário */
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Bungee', cursive; 
+    line-height: 41px;
+    font-weight: normal;
+    text-align: left;
 }
 
 
-.sobreh1{
-    width: 690px;
-    height: 510px;
-    background-color: aqua;
+.sobreh1Cargo {
+    width: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    height: 100%; /* Garante que o h1 ocupe todo o espaço da nova div */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding se não for necessário */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+    overflow: hidden; /* Esconde o texto que ultrapassa o tamanho definido */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    word-wrap: break-word; /* Quebra palavras longas para evitar ultrapassar o contêiner */
+    overflow-wrap: break-word; /* Garante que palavras longas quebrem conforme necessário */
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Archivo', cursive; 
+    line-height: 25px;
+    font-weight: normal;
+    text-align: center;
 }
 
 .sobreContainerImg {
@@ -54,6 +141,7 @@
     height: 133px; /* Ajuste conforme necessário */
     background-color: #1F2428;
     border-radius: 50px 0 0 0;
+    z-index: 5; /* Garante que este detalhe fique abaixo do título */
 }
 
 .sobreImg {
@@ -61,4 +149,54 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px 20px 10px 20px;
+}
+
+.sobreBolaEsquerda {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute; /* Posiciona a nova div */
+    top: 350px; /* Ajuste conforme necessário */
+    left: 120%; /* Centraliza horizontalmente */
+    background-color: #D9D9D9;
+    z-index: 9; /* Garante que a nova div fique atrás do título */
+    display: flex; /* Permite centralizar o texto verticalmente */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Alinha o texto horizontalmente no centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+.sobreBolaDireita {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute; /* Posiciona a nova div */
+    top: 350px; /* Ajuste conforme necessário */
+    left: 140%; /* Centraliza horizontalmente */
+    background-color: #D9D9D9;
+    z-index: 9; /* Garante que a nova div fique atrás do título */
+    display: flex; /* Permite centralizar o texto verticalmente */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Alinha o texto horizontalmente no centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+.flecha-esquerda {
+    width: 0;
+    height: 0;
+    margin: 10px 10px 10px 10px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid #000000; /* Cor da flecha */
+}
+
+.flecha-direita {
+    width: 0;
+    height: 0;
+    margin: 10px 10px 10px 18px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #000000; /* Cor da flecha */
 }
