@@ -1,0 +1,135 @@
+.duvidasSectionDuvidas {
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.duvidasTitulo {
+    font-family: 'Bungee', cursive; 
+    font-weight: normal; 
+    font-size: 35px;
+    color: #000000;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.duvidasContainer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    display: flex; /* Alinha as divs lado a lado */
+}
+
+.duvidasContainerItem {
+    align-items: center;
+    justify-content: center;
+}
+
+.duvidasContainerItemDiv {
+    height: 300px;
+    width: 728px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.duvidasContainerItemDivh1 {
+    font-family: 'Archivo', cursive; 
+    line-height: 45px;
+    font-weight: normal;
+    font-size: 25;
+    color: #3E3E3E;
+    letter-spacing: 2px;
+}
+
+.duvidasContainerItemDivbutton{
+    background-color: #D17339; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 25px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-family: 'Bungee', cursive; /* Define a fonte Bungee */
+    font-weight: normal; /* Garante que a fonte não será em negrito */
+    height: 68px;
+    width: 394px;    
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
+}
+
+.duvidasContainerItemDivbutton:hover{
+    background-color: #ff0000; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */ 
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */     
+}
+
+
+.duvidasContainerItemDivDivbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* lado direito */   
+
+.duvidasContainerItem1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.duvidasContainerItem1Div {
+    width: 707px;
+    height: 656px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.duvidasContainerItem1DivQuadrado {
+    width: 684px;
+    height: 74px;
+    transition: height 0.3s, width 0.3s;
+    border-radius: 20px;
+    border: 3px solid #bbbbbb;
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+
+.duvidasContainerItem1DivDuvida {
+    font-family: 'Archivo', cursive; 
+    line-height: 64px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #3A3A3A;
+    margin: 20px;
+} 
+
+.duvidasContainerItem1DivQuadradoClick {
+    width: 684px;
+    height: 200px;
+    transition: height 0.1s, width 0.1s;
+    border-radius: 20px;
+    border: 3px solid #bbbbbb;
+    display: flex;
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+.duvidasContainerItem1DivDuvidaClick {
+    font-family: 'Archivo', cursive; 
+    line-height: 64px;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 5px 20px 20px 20px;
+}  
+
+.duvidasContainerItem1DivDuvidaResposta {
+    font-family: 'Archivo', cursive; 
+    font-weight: normal;
+    font-size: 24px;
+    color: #4E4E4E;
+    margin: 5px 20px 20px 20px;
+}  
