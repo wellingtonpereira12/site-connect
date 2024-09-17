@@ -31,10 +31,10 @@ function End() {
                     <h1>Explorar</h1>
                 </div>
                 <div className="endDado1">
-                    <div>Inicio</div>
-                    <div>Serviços</div>
-                    <div>Sobre Nós</div>
-                    <div>Dúvidas</div>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servico">Serviços</a>
+                    <a href="#sobre-nos">Sobre Nós</a>
+                    <a href="#duvidas">Dúvidas</a>
                 </div>
             </div>
             </div>

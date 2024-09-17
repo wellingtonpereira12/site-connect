@@ -110,7 +110,7 @@
     margin: 1% 0% 0% 0%;
 }
 
-.endDado1{
+.endDado1 {
     margin: 5% 0% 0% 0%;
     color: #D4D4D4;
     font-family: 'Archivo', cursive; 
@@ -118,15 +118,18 @@
     font-size: 1.5vw;
 }
 
-.endDado1 div{
-    margin: 5% 0% 0% 0%;
+.endDado1 a {
+    display: list-item;
+    margin: 6% 0% 0% 15%;
     cursor: pointer; /* Cursor em forma de mão */
     transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Herda a cor do pai */
 }
 
-.endDado1 div:hover{
-    color: #cc3b3b; /* Cor de fundo ao passar o mouse */
-    transition: background-color 0.3s ease;
+.endDado1 a:hover {
+    color: #cc3b3b; /* Cor do texto ao passar o mouse */
+    transition: color 0.3s ease; /* Transição para a cor do texto */
 }
 
 .endContainer {
