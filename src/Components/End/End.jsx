@@ -1,5 +1,5 @@
 import React from "react";
-import './end.css'
+import './End.css'
 
 function End() {
     return (
