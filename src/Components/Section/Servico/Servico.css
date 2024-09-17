@@ -14,10 +14,9 @@
     width: 542px;
     height: 541px;
     background-color: #E2E2E2;
-    border-radius: 10px; /* Define bordas arredondadas */
+    transition: background-color 1s;
     justify-content: center;
     align-items: center;
-    transition: background-color 1s;
 }
 
 .squareInfhover{
@@ -170,20 +169,14 @@
     transition: background-color 1s;
 }
 
-.fundoBotao2 {
-    width: 181px;
-    height: 144px;
-    background-color: #F5F5F5;
-    justify-content: center;
-    margin: 32px;
-    margin-left: 361px;
-    border-top-left-radius: 50px;
+.fundoBotaodet2 {
     display: flex;
+    
     justify-content: End;
     align-items: End;
 }
 
-.fundoBotao1 {
+.fundoBotao {
     width: 181px;
     height: 144px;
     background-color: #F5F5F5;

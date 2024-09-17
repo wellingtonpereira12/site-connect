@@ -40,7 +40,7 @@ function Servico() {
                             </div>
                             <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={hover ? "textoTituloHover" : "textoTitulo"} >Criação de Sites: Sua Presença Digital Começa Aqui</div>
                             <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={hover ? "descricaoEspHover" : "descricaoEsp"} >Na React Soluções, criamos sites personalizados, responsivos e otimizados para SEO, garantindo uma experiência digital eficiente e atraente para destacar sua marca no mercado.</div>
-                            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="fundoBotao1"> 
+                            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="fundoBotao"> 
                                 <div onClick={handleClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className={hover ? "botaoServicoHover" : "botaoServico"}>Saiba Mais</div> 
                             </div>      
                         </div>
@@ -55,9 +55,9 @@ function Servico() {
                             </div>
                             <div onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className={hover1 ? "textoTituloHover" : "textoTitulo"}>Landing Pages: Converta Mais com Páginas Otimizadas</div>
                             <div onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className={hover1 ? "descricaoEspHover" : "descricaoEsp"}>Na React Soluções, criamos landing pages otimizadas para capturar leads e aumentar suas conversões, com design estratégico e foco em resultados rápidos.</div>
-                            <div onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className="fundoBotao2">
+                            <div onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className="fundoBotao">
                                 <div onClick={handleClick} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}  className={hover1 ? "botaoServicoHover" : "botaoServico"}>Saiba Mais</div> 
-                            </div>                     
+                            </div>
                         </div>
                     </div>
                 </div>
