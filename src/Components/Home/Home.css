@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Garante que a imagem de fundo não ultrapasse os limites */
 }
 
 .hero-image {
@@ -21,47 +22,44 @@
 }
 
 .textoSobreposto {
-  font-size: 50px;
+  font-size: 3vw;
   color: white;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 3vw;
   z-index: 1; /* Garantir que o texto fique acima da imagem */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center; 
   line-height: 0.9; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
-  letter-spacing: 11px;
+  letter-spacing: 1vw;
 }
 
 .textoSobrepostoDescr {
-  font-size: 25px;
+  font-size: 1.7vw;
   color: white;
   padding: 21px;
-  border-radius: 10px;
   z-index: 1; /* Garantir que o texto fique acima da imagem */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center; 
   line-height: 1.2; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
-  letter-spacing: 5px;
+  letter-spacing: 0.2vw;
 }
 
 .botao-especialista {
   background-color: #ff9419; /* Cor de fundo do botão */
   color: white; /* Cor do texto */
   border: none; /* Remove a borda padrão */
-  border-radius: 10px; /* Bordas arredondadas */
-  padding: 20px 33px; /* Espaçamento interno */
-  font-size: 25px; /* Tamanho da fonte */
+  border-radius: 1vw; /* Bordas arredondadas */
+  padding: 1vw 2vw; /* Espaçamento interno */
+  font-size: 2vw; /* Tamanho da fonte */
   font-weight: bold; /* Texto em negrito */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Remove o sublinhado do texto */
   display: inline-block; /* Faz o botão se comportar como um bloco em linha */
   cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
   transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
-  text-align: center; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
 }
@@ -71,64 +69,58 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
 }
 
-.textoSobrepostoPrinciapal{
+.textoSobrepostoPrinciapal {
   text-align: center; /* Alinhamento do texto */
 }
 
-
-@media screen and (max-width: 1070px) {
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
   .textoSobreposto {
-    font-size: 40px;
-  }
-  .textoSobrepostoDescr {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .textoSobreposto {
-    font-size: 30px;
-    letter-spacing: 8px;
-  }
-  .textoSobrepostoDescr {
-    font-size: 20px;
-    letter-spacing: 5px;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .textoSobreposto {
-    font-size: 30px; /* Pode ajustar este valor se desejar algo diferente para telas menores */
-    letter-spacing: 3px;
-  }
-  .textoSobrepostoDescr {
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 4vw; /* Ajusta o padding para telas menores */
   }
 
-}
-
-@media screen and (max-width: 650px) {
-  .textoSobreposto {
-    font-size: 25px; /* Pode ajustar este valor se desejar algo diferente para telas menores */
-    letter-spacing: 1px;
-  }
   .textoSobrepostoDescr {
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 2.2vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 15px; /* Ajusta o padding para telas menores */
   }
+
   .botao-especialista {
-    font-size: 20px; /* Tamanho da fonte */
+    font-size: 2.5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 1.5vw 3vw; /* Ajusta o padding para telas menores */
   }
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 768px) {
   .textoSobreposto {
-    font-size: 20px; /* Pode ajustar este valor se desejar algo diferente para telas menores */
-    letter-spacing: 1px;
+    font-size: 5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 5vw; /* Ajusta o padding para telas menores */
   }
+
   .textoSobrepostoDescr {
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 3vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 12px; /* Ajusta o padding para telas menores */
+  }
+
+  .botao-especialista {
+    font-size: 3vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 1vw 2.5vw; /* Ajusta o padding para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .textoSobreposto {
+    font-size: 6vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 6vw; /* Ajusta o padding para telas menores */
+  }
+
+  .textoSobrepostoDescr {
+    font-size: 3.5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 10px; /* Ajusta o padding para telas menores */
+  }
+
+  .botao-especialista {
+    font-size: 3.5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 1vw 2vw; /* Ajusta o padding para telas menores */
   }
 }

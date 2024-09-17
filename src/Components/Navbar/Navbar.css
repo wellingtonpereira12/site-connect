@@ -47,7 +47,7 @@ a.scrolled{
 
 .nav.scrolled {
     background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
-    padding: 20px 400px; /* Ajuste o padding conforme necessário */
+    padding: 1vw 20vw; /* Ajuste o padding conforme necessário */
 }
 
 .nav_brand{
@@ -90,12 +90,12 @@ a.scrolled{
 }    
 
 .logo {
-    width: 100px; /* Defina a largura */
+    width: 5vw; /* Defina a largura */
     height: auto; /* Mantém a proporção da imagem */
 }
 
 .logo.scrolled {
-    width: 70px; /* Defina a largura */
+    width: 3.7vw; /* Defina a largura */
     height: auto; /* Mantém a proporção da imagem */
 }
 
@@ -120,7 +120,7 @@ a.scrolled{
 .ContainerNome a.scrolled {
     text-decoration: none; /* Remove sublinhado dos links */
     color: rgb(78, 78, 78); /* Define a cor dos links */
-    margin-bottom: 10px; /* Espaçamento entre os links */
+    margin-bottom: 0.5vw; /* Espaçamento entre os links */
 }
 
 
