@@ -1,0 +1,10 @@
+.endSectionEnd {
+    background-color: #1F2428;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.endSectionEndEmail {
+    display: flex; 
+}
