@@ -15,7 +15,7 @@ function App() {
         <Servico />
         <Sobre />
         <Duvida /> 
-        <End/ >
+        <End />
       </div>
     </>
   )
