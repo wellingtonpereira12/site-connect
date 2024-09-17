@@ -134,7 +134,7 @@
     margin: 5px 20px 20px 20px;
 }  
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1700px) {
 
     .duvidasContainer {
         background-color: #ffffff;
@@ -144,18 +144,234 @@
     }
 }
 
-@media screen and (max-width: 900px) {
 
+@media screen and (max-width: 1000px) {
+    .duvidasSectionDuvidas {
+        padding: 64px;
+    }
+    
+    .duvidasTitulo {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    
+    .duvidasContainer {
+        padding: 64px;
+    }
+    
+    .duvidasContainerItemDiv {
+        height: 240px;
+        width: 583px;
+    }
+    
+    .duvidasContainerItemDivh1 {
+        font-size: 20px;
+    }
+    
+    .duvidasContainerItemDivbutton {
+        font-size: 20px;
+        height: 54px;
+        width: 315px;
+    }
+    
+    .duvidasContainerItem1Div {
+        width: 566px;
+        height: 525px;
+    }
+    
+    .duvidasContainerItem1DivQuadrado {
+        width: 547px;
+        height: 59px;
+    }
+    
+    .duvidasContainerItem1DivDuvida {
+        font-size: 20px;
+    }
+    
+    .duvidasContainerItem1DivQuadradoClick {
+        width: 547px;
+        height: 160px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaClick {
+        font-size: 20px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaResposta {
+        font-size: 20px;
+    }
+    
 }
 
-@media screen and (max-width: 750px) {
-
+@media screen and (max-width: 730px) {
+    .duvidasSectionDuvidas {
+        padding: 51px;
+    }
+    
+    .duvidasTitulo {
+        font-size: 22px;
+        padding-bottom: 32px;
+    }
+    
+    .duvidasContainer {
+        padding: 51px;
+    }
+    
+    .duvidasContainerItemDiv {
+        height: 192px;
+        width: 466px;
+    }
+    
+    .duvidasContainerItemDivh1 {
+        font-size: 16px;
+    }
+    
+    .duvidasContainerItemDivbutton {
+        font-size: 16px;
+        height: 43px;
+        width: 252px;
+    }
+    
+    .duvidasContainerItem1Div {
+        width: 453px;
+        height: 420px;
+    }
+    
+    .duvidasContainerItem1DivQuadrado {
+        width: 437px;
+        height: 47px;
+    }
+    
+    .duvidasContainerItem1DivDuvida {
+        font-size: 16px;
+    }
+    
+    .duvidasContainerItem1DivQuadradoClick {
+        width: 437px;
+        height: 128px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaClick {
+        font-size: 16px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaResposta {
+        font-size: 16px;
+    }
+    
 }
 
-@media screen and (max-width: 650px) {
-
+@media screen and (max-width: 600px) {
+    .duvidasSectionDuvidas {
+        padding: 41px;
+    }
+    
+    .duvidasTitulo {
+        font-size: 18px;
+        padding-bottom: 26px;
+    }
+    
+    .duvidasContainer {
+        padding: 41px;
+    }
+    
+    .duvidasContainerItemDiv {
+        height: 153px;
+        width: 373px;
+    }
+    
+    .duvidasContainerItemDivh1 {
+        font-size: 13px;
+    }
+    
+    .duvidasContainerItemDivbutton {
+        font-size: 13px;
+        height: 34px;
+        width: 202px;
+    }
+    
+    .duvidasContainerItem1Div {
+        width: 362px;
+        height: 336px;
+    }
+    
+    .duvidasContainerItem1DivQuadrado {
+        width: 350px;
+        height: 38px;
+    }
+    
+    .duvidasContainerItem1DivDuvida {
+        font-size: 13px;
+    }
+    
+    .duvidasContainerItem1DivQuadradoClick {
+        width: 350px;
+        height: 102px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaClick {
+        font-size: 13px;
+    }
+    
+    .duvidasContainerItem1DivDuvidaResposta {
+        font-size: 13px;
+    }
+    
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
+    .duvidasSectionDuvidas {
+        padding: 33px;
+    }
 
+    .duvidasTitulo {
+        font-size: 14px;
+        padding-bottom: 21px;
+    }
+
+    .duvidasContainer {
+        padding: 33px;
+    }
+
+    .duvidasContainerItemDiv {
+        height: 122px;
+        width: 298px;
+    }
+
+    .duvidasContainerItemDivh1 {
+        font-size: 10px;
+    }
+
+    .duvidasContainerItemDivbutton {
+        font-size: 10px;
+        height: 27px;
+        width: 162px;
+    }
+
+    .duvidasContainerItem1Div {
+        width: 290px;
+        height: 269px;
+    }
+
+    .duvidasContainerItem1DivQuadrado {
+        width: 280px;
+        height: 30px;
+    }
+
+    .duvidasContainerItem1DivDuvida {
+        font-size: 10px;
+    }
+
+    .duvidasContainerItem1DivQuadradoClick {
+        width: 280px;
+        height: 82px;
+    }
+
+    .duvidasContainerItem1DivDuvidaClick {
+        font-size: 10px;
+    }
+
+    .duvidasContainerItem1DivDuvidaResposta {
+        font-size: 10px;
+    }
 }
