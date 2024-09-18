@@ -217,16 +217,16 @@
     
     .sobreContainerH1 {
         top: 8px; /* 10px reduzido em 20% */
-        left: 56%; /* 70% reduzido em 20% */
+        left: 70%; /* 70% reduzido em 20% */
         width: 583px; /* 728px reduzido em 20% */
         border-radius: 24px; /* 30px reduzido em 20% */
         padding: 16px; /* 20px reduzido em 20% */
     }
     
     .sobreContainerH1Nome {
-        top: 200px; /* 250px reduzido em 20% */
-        left: 92%; /* 115% reduzido em 20% */
-        width: 242px; /* 303px reduzido em 20% */
+        top: 180px; /* 250px reduzido em 20% */
+        left: 102%; /* 115% reduzido em 20% */
+        width: 252px; /* 303px reduzido em 20% */
     }
     
     .sobreh1 {
@@ -263,15 +263,15 @@
         width: 80px; /* 100px reduzido em 20% */
         height: 80px; /* 100px reduzido em 20% */
         top: 280px; /* 350px reduzido em 20% */
-        left: 96%; /* 120% reduzido em 20% */
+        left: 105%; /* 120% reduzido em 20% */
         padding: 16px; /* 20px reduzido em 20% */
     }
     
     .sobreBolaDireita {
         width: 80px; /* 100px reduzido em 20% */
         height: 80px; /* 100px reduzido em 20% */
-        top: 280px; /* 350px reduzido em 20% */
-        left: 112%; /* 140% reduzido em 20% */
+        top: 282px; /* 350px reduzido em 20% */
+        left: 123%; /* 140% reduzido em 20% */
         padding: 16px; /* 20px reduzido em 20% */
     }
     
@@ -308,7 +308,7 @@
     
     .sobreContainerH1 {
         top: 6px;
-        left: 45%;
+        left: 70%;
         width: 466px;
         border-radius: 19px;
         padding: 13px;
@@ -316,8 +316,8 @@
     
     .sobreContainerH1Nome {
         top: 160px;
-        left: 74%;
-        width: 194px;
+        left: 104%;
+        width: 200px;
     }
     
     .sobreh1 {
@@ -354,7 +354,7 @@
         width: 64px;
         height: 64px;
         top: 224px;
-        left: 77%;
+        left: 110%;
         padding: 13px;
     }
     
@@ -362,7 +362,7 @@
         width: 64px;
         height: 64px;
         top: 224px;
-        left: 89%;
+        left: 125%;
         padding: 13px;
     }
     
@@ -396,19 +396,19 @@
     }
     
     .sobreContainerH1 {
-        top: 5px;
-        left: 36%;
-        width: 373px;
-        border-radius: 15px;
-        padding: 10px;
+        top: 6px;
+        left: 70%;
+        width: 466px;
+        border-radius: 19px;
+        padding: 13px;
     }
     
     .sobreContainerH1Nome {
-        top: 128px;
-        left: 59%;
-        width: 155px;
+        top: 130px;
+        left: 104%;
+        width: 160px;
     }
-    
+        
     .sobreh1 {
         font-size: 18px;
         line-height: 23px;
@@ -443,7 +443,7 @@
         width: 51px;
         height: 51px;
         top: 179px;
-        left: 62%;
+        left: 105%;
         padding: 10px;
     }
     
@@ -451,7 +451,7 @@
         width: 51px;
         height: 51px;
         top: 179px;
-        left: 71%;
+        left: 123%;
         padding: 10px;
     }
     
@@ -486,17 +486,17 @@
     }
     
     .sobreContainerH1 {
-        top: 4px;
-        left: 29%;
-        width: 298px;
-        border-radius: 12px;
-        padding: 8px;
+        top: 6px;
+        left: 70%;
+        width: 306px;
+        border-radius: 15px;
+        padding: 10px;
     }
     
     .sobreContainerH1Nome {
-        top: 102px;
-        left: 47%;
-        width: 124px;
+        top: 100px;
+        left: 104%;
+        width: 130px;
     }
     
     .sobreh1 {
@@ -533,7 +533,7 @@
         width: 41px;
         height: 41px;
         top: 143px;
-        left: 50%;
+        left: 105%;
         padding: 8px;
     }
     
@@ -541,7 +541,7 @@
         width: 41px;
         height: 41px;
         top: 143px;
-        left: 57%;
+        left: 125%;
         padding: 8px;
     }
     
@@ -576,17 +576,17 @@
     }
     
     .sobreContainerH1 {
-        top: 3px;
-        left: 23%;
-        width: 238px;
-        border-radius: 10px;
-        padding: 6px;
+        top: 6px;
+        left: 70%;
+        width: 255px;
+        border-radius: 15px;
+        padding: 10px;
     }
     
     .sobreContainerH1Nome {
-        top: 81px;
-        left: 38%;
-        width: 99px;
+        top: 80px;
+        left: 104%;
+        width: 100px;
     }
     
     .sobreh1 {
@@ -623,7 +623,7 @@
         width: 33px;
         height: 33px;
         top: 114px;
-        left: 40%;
+        left: 105%;
         padding: 6px;
     }
     
@@ -631,7 +631,7 @@
         width: 33px;
         height: 33px;
         top: 114px;
-        left: 46%;
+        left: 125%;
         padding: 6px;
     }
     
