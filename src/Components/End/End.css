@@ -153,3 +153,60 @@
     font-weight: normal;
     font-size: 1.5vw;
 }
+
+@media screen and (max-width: 550px) {
+
+    
+    .endSectionEndParticao h1 {
+        font-size: 4vw;
+    }
+
+    
+    .endlogo {
+        width: 20vw; /* Defina a largura */
+    }
+    
+    
+    .endDivLogo h1{
+        margin: 0% 0% 0% 5%;
+        font-size: 8vw;
+    }
+    
+    .endDivLogo1 {
+        margin: 20% 0% 0% 0%;
+    }
+    
+    .endDivLogo1 h1{
+        font-size: 8vw;
+    }
+    
+    .endAteLogo{
+        margin: 10% 0% 0% 0%;
+        font-size: 4vw;
+    }
+    
+    .endDado{
+        margin: 5% 0% 0% 0%;
+        font-size: 4vw;
+    }
+    
+    .endDado div{
+        margin: 2% 0% 0% 0%;
+    }
+    
+    .endDado1 {
+        margin: 5% 0% 0% 0%;
+        font-size: 4vw;
+    }
+        
+    .endContainerPrincipal {
+        display: flex; /* Usa Flexbox para alinhamento */
+        flex-wrap: wrap; /* Permite que os itens quebrem linha quando necessário */
+        gap: 5px; /* Espaçamento entre os itens */
+    }
+    
+    .endDireitos{
+        margin: 6% 0% 0% 15%;
+        font-size: 3vw;
+    }   
+}

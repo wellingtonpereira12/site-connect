@@ -567,7 +567,7 @@
     }
     
     .sobreTitulo {
-        font-size: 11px;
+        font-size: 9vw;
         padding-bottom: 16px;
     }
     
@@ -576,37 +576,38 @@
     }
     
     .sobreContainerH1 {
-        top: 6px;
-        left: 70%;
-        width: 255px;
-        border-radius: 15px;
-        padding: 10px;
-    }
+        top:350px;
+        left: 10%;
+        width: 80vw;
+        border-radius: 2vw;
+        padding: 3vw;
+  }
     
     .sobreContainerH1Nome {
-        top: 80px;
+        top: 10vw;
         left: 104%;
-        width: 100px;
+        width: 40vw;
     }
     
     .sobreh1 {
-        font-size: 11px;
-        line-height: 14px;
+        width: 104%; /* Garante que o h1 ocupe todo o espaço da nova div */
+        font-size: 4vw;
+        line-height: 4vw;
     }
     
     .sobreh1Nome {
-        font-size: 8px;
-        line-height: 14px;
+        font-size: 3.3vw;
+        line-height: 3.3vw;
     }
     
     .sobreh1Cargo {
-        font-size: 8px;
-        line-height: 8px;
+        font-size: 4vw;
+        line-height: 4vw;
     }
     
     .sobreContainerImg {
-        width: 226px;
-        height: 167px;
+        width: 236px;
+        height: 500px;
     }
     
     .sobreDetalheImg {
@@ -620,33 +621,31 @@
     }
     
     .sobreBolaEsquerda {
-        width: 33px;
-        height: 33px;
-        top: 114px;
-        left: 105%;
-        padding: 6px;
+        width: 15vw;
+        height: 15vw;
+        top: 25vw;
+        left: 250px;
     }
     
     .sobreBolaDireita {
-        width: 33px;
-        height: 33px;
-        top: 114px;
-        left: 125%;
-        padding: 6px;
+        width: 15vw;
+        height: 15vw;
+        top: 25vw;
+        left: 340px;
     }
     
     .flecha-esquerda {
-        margin: 3px;
-        border-top: 6px solid transparent;
-        border-bottom: 6px solid transparent;
-        border-right: 9px solid #000000;
+        margin: 2vw;
+        border-top: 4vw solid transparent;
+        border-bottom: 4vw solid transparent;
+        border-right: 7vw solid #000000;
     }
     
     .flecha-direita {
-        margin: 3px 3px 3px 5px;
-        border-top: 6px solid transparent;
-        border-bottom: 6px solid transparent;
-        border-left: 9px solid #000000;
+        margin: 2vw;
+        border-top: 4vw solid transparent;
+        border-bottom: 4vw solid transparent;
+        border-left: 7vw solid #000000;
     }
     
 }
