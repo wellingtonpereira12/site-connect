@@ -606,7 +606,7 @@
     }
     
     .sobreContainerImg {
-        width: 236px;
+        width: 40vw;
         height: 500px;
     }
     
@@ -624,14 +624,14 @@
         width: 15vw;
         height: 15vw;
         top: 25vw;
-        left: 250px;
+        left: 45vw;
     }
     
     .sobreBolaDireita {
         width: 15vw;
         height: 15vw;
         top: 25vw;
-        left: 340px;
+        left: 63vw;
     }
     
     .flecha-esquerda {
