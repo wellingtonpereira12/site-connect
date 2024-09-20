@@ -14,7 +14,7 @@ const Sobre = () => {
                     </div>
                     <div className="sobreContainerH1Nome">
                         <h1 className="sobreh1Nome">Wellington Pereira</h1>
-                        <h1 className="sobreh1Cargo">CEO da Connect</h1>
+                        <h1 className="sobreh1Cargo">CEO da React</h1>
                     </div>
                     <div className="sobreBolaEsquerda"><div className="flecha-esquerda"></div></div>
                     <div className="sobreBolaDireita"><div className="flecha-direita"></div></div>
