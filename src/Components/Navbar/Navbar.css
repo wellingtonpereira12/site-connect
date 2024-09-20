@@ -210,6 +210,11 @@ a.scrolled{
         font-size: 20px;
         margin: 10px;
     }
+    .DescrEmpresa.scrolled{
+        font-family: 'Bungee', sans-serif;
+        font-size: 20px;
+        margin: 10px;
+    }
     a{
         text-decoration: none;
         color: rgb(68, 68, 68);
@@ -217,14 +222,10 @@ a.scrolled{
 }
 @media screen and (max-width: 386px){
 .DescrEmpresa{
-    font-family: 'Bungee', sans-serif;
     font-size: 4vw;
-    margin: 10px;
 }
 .DescrEmpresa.scrolled{
-    font-family: 'Bungee', sans-serif;
     font-size: 4vw;
-    margin: 10px;
 }
 }
 
