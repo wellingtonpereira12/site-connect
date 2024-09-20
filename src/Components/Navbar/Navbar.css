@@ -221,6 +221,11 @@ a.scrolled{
     font-size: 4vw;
     margin: 10px;
 }
+.DescrEmpresa.scrolled{
+    font-family: 'Bungee', sans-serif;
+    font-size: 4vw;
+    margin: 10px;
+}
 }
 
 .nav_active{
