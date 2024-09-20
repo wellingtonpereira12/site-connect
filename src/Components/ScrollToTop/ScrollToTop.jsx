@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import 'font-awesome/css/font-awesome.min.css';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,34 +27,29 @@ const ScrollToTop = () => {
   return (
     <div>
       {isVisible && (
-        <button
+        <a
           onClick={scrollToTop}
-          style={ScrollToTopstyles.button}
+          style={{
+            position: 'fixed',
+            width: '60px',
+            height: '60px',
+            bottom: '40px',
+            left: '40px', // Posiciona no lado esquerdo
+            backgroundColor: '#000000',
+            color: '#FFF',
+            borderRadius: '50%',
+            textAlign: 'center',
+            fontSize: '30px',
+            boxShadow: '1px 1px 2px #888',
+            zIndex: 1000,
+            cursor: 'pointer',
+          }}
         >
-          ↑ Topo
-        </button>
+          <i className="fa fa-arrow-up" style={{ marginTop: '16px' }} />
+        </a>
       )}
     </div>
   );
-};
-
-const ScrollToTopstyles = {
-  button: {
-    left: '20px',  // Altera para o lado esquerdo
-    border: 'none',
-    borderRadius: '50%',
-    position:'fixed',
-    width: '60px',
-    height: '60px',
-    bottom: '40px',
-    right: '40px',
-    backgroundColor: '#000000',
-    color: '#fff',
-    borderradius: '50px',
-    textalign: 'center',
-    fontsize: '30px',
-    boxshadow: '1px 1px 2px #888',
-  },
 };
 
 export default ScrollToTop;
