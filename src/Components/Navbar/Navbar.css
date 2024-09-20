@@ -138,7 +138,7 @@ a.scrolled{
 
 .nomeEmpresa.scrolled{
     font-family: 'Bungee', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     margin: 10px;
 }
 
@@ -190,7 +190,17 @@ a.scrolled{
         color: rgb(78, 78, 78); /* Define a cor dos links */
         margin-bottom: 10px; /* Espaçamento entre os links */
     }
+
+    .ContainerNome a.scrolled {
+        margin-bottom: 10px; /* Espaçamento entre os links */
+    }
+
     .nomeEmpresa{
+        font-family: 'Bungee', sans-serif;
+        font-size: 40px;
+        margin: 10px;
+    }
+    .nomeEmpresa.scrolled{
         font-family: 'Bungee', sans-serif;
         font-size: 40px;
         margin: 10px;
