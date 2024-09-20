@@ -312,7 +312,7 @@
     }
 
     .duvidasContainerItem1DivDuvida {
-        font-size: 3vw;
+        font-size: 2.9vw;
     }
 
     .duvidasContainerItem1DivQuadradoClick {
@@ -331,7 +331,7 @@
     }
 
     .duvidasContainerItem1DivDuvidaResposta {
-        font-size: 3vw;
+        font-size: 4vw;
         border-radius: 2px;
     }
 }

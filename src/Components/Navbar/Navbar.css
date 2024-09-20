@@ -205,6 +205,14 @@ a.scrolled{
         color: rgb(68, 68, 68);
     }   
 }
+@media screen and (max-width: 386px){
+.DescrEmpresa{
+    font-family: 'Bungee', sans-serif;
+    font-size: 4vw;
+    margin: 10px;
+}
+}
+
 .nav_active{
     transform: translateX(0);  
 }
