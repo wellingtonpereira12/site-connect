@@ -4,11 +4,12 @@ import Servico from './Components/Section/Servico/Servico.jsx';
 import Duvida from './Components/Section/Duvidas/Duvidas.jsx';
 import Sobre from './Components/Section/Sobre/Sobre.jsx';
 import End from './Components/End/End.jsx';
+import Whats from './Components/Whats/Whats.jsx';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop.jsx';
 import './App.css'
 
 function App() {
   return (
-    <>
       <div>
         <Navbar />
         <Home />
@@ -16,8 +17,9 @@ function App() {
         <Sobre />
         <Duvida /> 
         <End />
+        <Whats />
+        <ScrollToTop />
       </div>
-    </>
   )
 }
 
