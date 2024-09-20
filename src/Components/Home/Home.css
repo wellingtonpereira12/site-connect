@@ -87,8 +87,8 @@
   }
 
   .botao-especialista {
-    font-size: 2.5vw; /* Ajusta o tamanho da fonte para telas menores */
-    padding: 1.5vw 3vw; /* Ajusta o padding para telas menores */
+    font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 2vw 2vw; /* Ajusta o padding para telas menores */
   }
 }
 
@@ -104,24 +104,34 @@
   }
 
   .botao-especialista {
-    font-size: 3vw; /* Ajusta o tamanho da fonte para telas menores */
-    padding: 1vw 2.5vw; /* Ajusta o padding para telas menores */
+    font-size: 5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 3vw 4vw; /* Ajusta o padding para telas menores */
+  }
+
+  .hero-container {
+    height: 80vh; 
   }
 }
 
 @media (max-width: 480px) {
   .textoSobreposto {
-    font-size: 6vw; /* Ajusta o tamanho da fonte para telas menores */
-    padding: 6vw; /* Ajusta o padding para telas menores */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center; 
+      letter-spacing: 1vw;
+      font-size: 6vw; /* Ajusta o tamanho da fonte para telas menores */
   }
 
   .textoSobrepostoDescr {
     font-size: 3.5vw; /* Ajusta o tamanho da fonte para telas menores */
-    padding: 10px; /* Ajusta o padding para telas menores */
+    padding-bottom:  40px; /* Ajusta o padding para telas menores */
   }
 
   .botao-especialista {
-    font-size: 3.5vw; /* Ajusta o tamanho da fonte para telas menores */
-    padding: 1vw 2vw; /* Ajusta o padding para telas menores */
+    font-size: 5vw; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 3vw 4vw; /* Ajusta o padding para telas menores */
+  }
+
+  .hero-container {
+    height: 80vh; 
   }
 }
