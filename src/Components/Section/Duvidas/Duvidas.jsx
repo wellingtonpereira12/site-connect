@@ -20,8 +20,11 @@ const respostas = [
 
 function Duvidas() {
     const [hoverStates, setHoverStates] = useState([true, false, false, false, false]);
+    const phoneNumber = '47984862476'; // Coloque o número de telefone com DDD
+    const message = 'Olá,%20gostaria%20de%20de%20criar%20uma%20prévia%20grátis%20da%20minha%20marca.%20Podemos%20conversar%20sobre%20os%20detalhes%20e%20etapas%20do%20projeto?';
+  
     const handleClick = () => {
-        window.open('https://api.whatsapp.com/send/?phone=47984862476', '_blank');
+        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
     };
 
     const handleClickOpen = (index) => {
