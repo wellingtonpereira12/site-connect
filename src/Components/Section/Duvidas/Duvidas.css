@@ -300,24 +300,21 @@
         width: 90vw;
         height: 469px;
         border-radius: 2px;
-        
-
     }
 
     .duvidasContainerItem1DivQuadrado {
         width: 91svw;
         height: 41px;
-        border-radius: 2px;
-        
+        border-radius: 2px;       
     }
 
     .duvidasContainerItem1DivDuvida {
-        font-size: 2.9vw;
+        font-size: 3vw;
     }
 
     .duvidasContainerItem1DivQuadradoClick {
         width: 91vw;
-        height: 182px;
+        height: 152px;
         border-radius: 2px;
     }
 
@@ -331,7 +328,7 @@
     }
 
     .duvidasContainerItem1DivDuvidaResposta {
-        font-size: 4vw;
+        font-size: 3vw;
         border-radius: 2px;
     }
 }

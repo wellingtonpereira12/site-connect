@@ -13,8 +13,8 @@ const respostas = [
     "O prazo pode variar dependendo da complexidade do projeto, mas geralmente, entregamos um site completo em 1 a 3 semanas.",
     "Sim, todos os sites que criamos são responsivos, garantindo que funcionem bem em qualquer dispositivo, desde desktops até smartphones.",
     "Sim, oferecemos pacotes de manutenção para garantir que seu site permaneça atualizado e funcione sem problemas.",
-    "Incluímos pesquisa de palavras-chave, otimização de conteúdo, ajuste de meta tags, e configuração técnica para melhorar o ranqueamento do seu site nos motores de busca.",
-    "O custo varia conforme a complexidade e os requisitos do projeto. Para uma estimativa precisa, recomendamos uma consulta para entender suas necessidades específicas."
+    "Incluímos pesquisa de palavras-chave, otimização de conteúdo, ajuste de meta tags e melhorias técnicas para seu ranqueamento no Google.",
+    "O custo varia com a complexidade e requisitos do projeto. Consulte-nos para uma estimativa precisa."
 ];
 
 
