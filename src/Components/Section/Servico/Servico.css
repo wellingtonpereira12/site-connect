@@ -12,22 +12,62 @@
   /* Estilo do quadrado */
 .squareInf {
     width: 542px;
-    height: 541px;
+    height: 511px;
     background-color: #E2E2E2;
     transition: background-color 1s;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    background-image: url('/src/assets/landingpages.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz com que a imagem ocupe toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    position: relative; /* Mantém o conteúdo posicionado corretamente */
 }
 
-.squareInfhover{
-    background-color: #D17339; /* Cor de fundo ao passar o mouse */
+.squareInf1 {
     width: 542px;
-    height: 541px;
+    height: 511px;
+    background-color: #E2E2E2;
+    transition: background-color 1s;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url('/src/assets/sites.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz com que a imagem ocupe toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    position: relative; /* Mantém o conteúdo posicionado corretamente */
+}
+
+.squareInfhover1{
+    background-color: #d1733959; /* Cor de fundo ao passar o mouse */
+    width: 542px;
+    height: 511px;
     border-radius: 10px; /* Define bordas arredondadas */
     justify-content: center;
     align-items: center;
     transition: background-color 1s;
+    background-image: url('/src/assets/sites.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz com que a imagem ocupe toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    position: relative; /* Mantém o conteúdo posicionado corretamente */
+}
+
+.squareInfhover{
+    background-color: #d1733959; /* Cor de fundo ao passar o mouse */
+    width: 542px;
+    height: 511px;
+    border-radius: 10px; /* Define bordas arredondadas */
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s;
+    background-image: url('/src/assets/landingpages.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz com que a imagem ocupe toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    position: relative; /* Mantém o conteúdo posicionado corretamente */
 }
 
 .squareInfDet{
@@ -40,7 +80,7 @@
 
 .square {
     width: 1280px;
-    height: 902px;
+    height: 802px;
     background-color: #F5F5F5;
     border-radius: 50px; /* Define bordas arredondadas */
     display: inline-block;
@@ -70,7 +110,7 @@
     text-transform: capitalize;
     color: #3A3A3A; /* Define a cor dos links */
     font-weight: bold;  
-    letter-spacing: 4px;     
+    letter-spacing: 1px;     
     margin-bottom: 25px; 
 }
 
@@ -138,35 +178,20 @@
     font-family: 'Archivo', cursive;
     font-size: 30px; 
     margin: 15px;
-    letter-spacing: 6px;  
-    color: #3A3A3A;
+    letter-spacing: 3px;  
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
     transition: background-color 1s;
 }
 
-.textoTituloHover{
-    font-family: 'Archivo', cursive;
-    font-size: 30px; 
-    margin: 15px;
-    letter-spacing: 6px;  
-    color: #ffffff;
-    transition: background-color 1s;
-}
 
 .descricaoEsp{
     font-family: 'Archivo', cursive;
     font-size: 20px; 
     margin: 15px; 
     letter-spacing: 1px;  
-    color: #3A3A3A;
-    transition: background-color 1s;
-}
-
-.descricaoEspHover{
-    font-family: 'Archivo', cursive;
-    font-size: 20px; 
-    margin: 15px; 
-    letter-spacing: 1px;  
     color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
     transition: background-color 1s;
 }
 
@@ -264,8 +289,19 @@
         width: 433px;
         height: 433px;
     }
+
+    .squareInf1 {
+        width: 433px;
+        height: 433px;
+    }
     
     .squareInfhover {
+        width: 433px;
+        height: 433px;
+        border-radius: 8px;
+    }
+
+    .squareInfhover1 {
         width: 433px;
         height: 433px;
         border-radius: 8px;
@@ -352,11 +388,6 @@
         letter-spacing: 0.8px;
     }
     
-    .descricaoEspHover {
-        font-size: 16px;
-        margin: 12px;
-        letter-spacing: 0.8px;
-    }
     
     .fundoBotao {
         width: 145px;
@@ -390,8 +421,19 @@
         width: 346px;
         height: 346px;
     }
+
+    .squareInf1 {
+        width: 346px;
+        height: 346px;
+    }
     
     .squareInfhover {
+        width: 346px;
+        height: 346px;
+        border-radius: 6px;
+    }
+
+    .squareInfhover1 {
         width: 346px;
         height: 346px;
         border-radius: 6px;
@@ -478,12 +520,6 @@
         letter-spacing: 0.6px;
     }
     
-    .descricaoEspHover {
-        font-size: 13px;
-        margin: 10px;
-        letter-spacing: 0.6px;
-    }
-    
     .fundoBotao {
         width: 116px;
         height: 92px;
@@ -516,8 +552,20 @@
             width: 277px;
             height: 277px;
         }
+
+        .squareInf1 {
+            width: 277px;
+            height: 277px;
+        }
     
         .squareInfhover {
+            width: 277px;
+            height: 277px;
+            border-radius: 5px;
+        }
+
+            
+        .squareInfhover1 {
             width: 277px;
             height: 277px;
             border-radius: 5px;
@@ -598,12 +646,6 @@
         }
     
         .descricaoEsp {
-            font-size: 10px;
-            margin: 8px;
-            letter-spacing: 0.5px;
-        }
-    
-        .descricaoEspHover {
             font-size: 10px;
             margin: 8px;
             letter-spacing: 0.5px;
