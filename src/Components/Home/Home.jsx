@@ -14,14 +14,14 @@ function Home() {
                 <img src={fundoInicio} alt="fundoInicio" className="hero-image" />
                 <div className="textoSobrepostoPrinciapal">
                     <div className="textoSobreposto">
-                        <h1>Conecte sua Marca</h1>
-                        <h1>na Internet</h1>
+                        <h1>Transforme sua Marca</h1>
+                        <h1>com um Site de Sucesso</h1>
                     </div> 
                     <div className="textoSobrepostoDescr"> 
-                        <h1>Criamos sites com eficiência e Inovação</h1>
-                        <h1>Peças sua prévia sem custo</h1>
+                        <h1>Inovação e Eficiência na Criação de Sites</h1>
+                        <h1>Experimente uma Prévia Grátis!</h1>
                     </div>  
-                    <button class="botao-especialista"  onClick={handleClick}>Fale com um especialista</button>
+                    <button class="botao-especialista"  onClick={handleClick}>Peça sua prévia</button>
                 </div>
             </div>
         </section>

@@ -32,7 +32,7 @@
   line-height: 0.9; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
-  letter-spacing: 0.6vw;
+  letter-spacing: 0.3vw;
 }
 
 .textoSobrepostoDescr {
