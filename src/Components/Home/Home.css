@@ -48,8 +48,8 @@
 }
 
 .botao-especialista {
-  background-color: #ff9419; /* Cor de fundo do botão */
-  color: white; /* Cor do texto */
+  background-color: #FF914D; /* Cor de fundo do botão */
+  color: aliceblue; /* Cor do texto */
   border: none; /* Remove a borda padrão */
   border-radius: 1vw; /* Bordas arredondadas */
   padding: 1vw 2vw; /* Espaçamento interno */
@@ -57,15 +57,16 @@
   font-weight: bold; /* Texto em negrito */
   text-align: center; /* Alinhamento do texto */
   text-decoration: none; /* Remove o sublinhado do texto */
-  display: inline-block; /* Faz o botão se comportar como um bloco em linha */
+  display: inline-flex; /* Faz o botão se comportar como um bloco em linha com flexbox */
+  align-items: center; /* Alinha verticalmente o texto e a imagem */
   cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
   transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
-  font-weight: normal; /* Garante que a fonte não será em negrito */
 }
 
 .botao-especialista:hover {
-  background-color: #ff0000; /* Cor de fundo ao passar o mouse */
+  background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+  color: black; /* Cor do texto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
 }
 

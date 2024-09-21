@@ -1,5 +1,6 @@
 import React from "react";
 import fundoInicio from '../../assets/fundoInicio.png';
+import logoWhats from '../../assets/whats.png';
 import './Home.css';
 
 function Home() {
@@ -21,7 +22,15 @@ function Home() {
                         <h1>Inovação e Eficiência na Criação de Sites</h1>
                         <h1>Experimente uma Prévia Grátis!</h1>
                     </div>  
-                    <button class="botao-especialista"  onClick={handleClick}>Peça sua prévia</button>
+                    <button className="botao-especialista" onClick={handleClick}>
+                        <img 
+                            src={logoWhats}
+                            rel="noopener noreferrer" 
+                            alt="WhatsApp" 
+                            style={{ width: '3vw', height: 'auto', marginRight: '0.5vw', verticalAlign: 'middle' }} 
+                        />
+                        Peça sua prévia
+                   </button>
                 </div>
             </div>
         </section>
