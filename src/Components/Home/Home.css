@@ -32,11 +32,11 @@
   line-height: 0.9; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
-  letter-spacing: 1vw;
+  letter-spacing: 0.6vw;
 }
 
 .textoSobrepostoDescr {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   color: white;
   padding: 21px;
   z-index: 1; /* Garantir que o texto fique acima da imagem */
@@ -45,7 +45,6 @@
   line-height: 1.2; 
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
   font-weight: normal; /* Garante que a fonte não será em negrito */
-  letter-spacing: 0.2vw;
 }
 
 .botao-especialista {

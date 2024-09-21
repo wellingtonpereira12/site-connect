@@ -18,8 +18,8 @@ function Home() {
                         <h1>na Internet</h1>
                     </div> 
                     <div className="textoSobrepostoDescr"> 
-                        <h1>Criamos sites com eficiência e</h1>
-                        <h1>Inovação.</h1>
+                        <h1>Criamos sites com eficiência e Inovação</h1>
+                        <h1>Peças sua previa sem custo</h1>
                     </div>  
                     <button class="botao-especialista"  onClick={handleClick}>Fale com um especialista</button>
                 </div>
