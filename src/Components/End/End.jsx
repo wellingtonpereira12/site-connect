@@ -13,7 +13,9 @@ function End() {
         <div className="endSectionEnd">
             <div className="endSectionEndParticao">
                 <h1>Interessado em Construir seu Site?</h1>
-                <button onClick={handleClick}><div className="endflecha-esquerda" /></button>
+                <button onClick={handleClick} aria-label="Avançar para criar seu site">
+                    <div className="endflecha-esquerda" />
+                </button>
             </div>
             <div className="endContainerPrincipal">
             <div className="endlinha-branca" />
