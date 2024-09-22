@@ -26,6 +26,7 @@ function End() {
                 </div>
                 <div className="endAteLogo">Até logo! Nos procure se quando quiser!</div>
                 <div className="endDado">
+                    <div className="">contato@reactsolucoes.com.br</div>
                     <div className="">Blumenau, Santa Catarina</div>
                     <div className="">(47) 98486-2476</div>
                 </div>
