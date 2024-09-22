@@ -64,6 +64,13 @@
   font-family: 'Bungee', cursive; /* Define a fonte Bungee */
 }
 
+.homeLogoWhats { 
+  width: 3vw; 
+  height: auto; 
+  margin-right: 0.5vw; 
+  vertical-align: middle; 
+}
+
 .botao-especialista:hover {
   background-color: #ffffff; /* Cor de fundo ao passar o mouse */
   color: black; /* Cor do texto */
@@ -76,6 +83,10 @@
 
 /* Media Queries para responsividade */
 @media (max-width: 1200px) {
+  .homeLogoWhats { 
+    width: 6vw; 
+  }
+
   .textoSobreposto {
     font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
     padding: 4vw; /* Ajusta o padding para telas menores */
@@ -93,6 +104,10 @@
 }
 
 @media (max-width: 768px) {
+  .homeLogoWhats { 
+    width: 6vw; 
+  }
+  
   .textoSobreposto {
     font-size: 5vw; /* Ajusta o tamanho da fonte para telas menores */
     padding: 5vw; /* Ajusta o padding para telas menores */
@@ -114,6 +129,10 @@
 }
 
 @media (max-width: 480px) {
+  .homeLogoWhats { 
+    width: 6vw; 
+  }
+  
   .textoSobreposto {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       text-align: center; 

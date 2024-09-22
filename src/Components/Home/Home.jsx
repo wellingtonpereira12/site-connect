@@ -29,7 +29,7 @@ function Home() {
                             src={logoWhats}
                             rel="noopener noreferrer" 
                             alt="WhatsApp" 
-                            style={{ width: '3vw', height: 'auto', marginRight: '0.5vw', verticalAlign: 'middle' }} 
+                            className={'homeLogoWhats'} 
                         />
                         Peça sua prévia
                    </button>
