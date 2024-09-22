@@ -47,21 +47,39 @@
   font-weight: normal; /* Garante que a fonte não será em negrito */
 }
 
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 3px chartreuse, 0 0 4px chartreuse, 0 0 5px chartreuse;
+  }
+  50% {
+    box-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff, 0 0 6px chartreuse, 0 0 8px chartreuse, 0 0 10px chartreuse;
+  }
+  100% {
+    box-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 3px chartreuse, 0 0 4px chartreuse, 0 0 5px chartreuse;
+  }
+}
+
+
 .botao-especialista {
-  background-color: #E67300;  /* Cor de fundo do botão */
-  color: aliceblue; /* Cor do texto */
-  border: none; /* Remove a borda padrão */
-  border-radius: 1vw; /* Bordas arredondadas */
-  padding: 1vw 2vw; /* Espaçamento interno */
-  font-size: 2vw; /* Tamanho da fonte */
-  font-weight: bold; /* Texto em negrito */
-  text-align: center; /* Alinhamento do texto */
-  text-decoration: none; /* Remove o sublinhado do texto */
-  display: inline-flex; /* Faz o botão se comportar como um bloco em linha com flexbox */
-  align-items: center; /* Alinha verticalmente o texto e a imagem */
-  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
-  font-family: 'Bungee', cursive; /* Define a fonte Bungee */
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 1vw;
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Bungee', cursive;
+  animation: glow 2s infinite; /* Aplica a animação */
+}
+
+.botao-especialista:hover {
+  background-color: #ffffff;
 }
 
 .homeLogoWhats { 
@@ -71,11 +89,6 @@
   vertical-align: middle; 
 }
 
-.botao-especialista:hover {
-  background-color: #ffffff; /* Cor de fundo ao passar o mouse */
-  color: black; /* Cor do texto */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
-}
 
 .textoSobrepostoPrinciapal {
   text-align: center; /* Alinhamento do texto */
