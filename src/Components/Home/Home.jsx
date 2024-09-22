@@ -1,6 +1,6 @@
 import React from "react";
-import fundoInicio from '../../assets/fundoInicio.png';
-import logoWhats from '../../assets/whats.png';
+import fundoInicio from '../../assets/fundoInicio.webp';
+import logoWhats from '../../assets/whats.webp';
 import './Home.css';
 
 function Home() {

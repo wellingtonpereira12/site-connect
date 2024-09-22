@@ -1,6 +1,6 @@
 import React from "react";
 import './End.css'
-import logo from '../../assets/ReactLogo.png'
+import logo from '../../assets/ReactLogo.webp'
 
 function End() {
     const phoneNumber = '47984862476'; // Coloque o número de telefone com DDD

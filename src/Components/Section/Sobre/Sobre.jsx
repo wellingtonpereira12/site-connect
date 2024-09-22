@@ -1,5 +1,5 @@
 import React from "react";
-import foto from '../../../assets/Wellington.png';
+import foto from '../../../assets/Wellington.webp';
 import './Sobre.css';
 
 

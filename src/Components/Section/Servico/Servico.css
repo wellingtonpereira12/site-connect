@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url('/src/assets/landingpages.jpg'); /* Caminho da imagem */
+    background-image: url('/src/assets/landingpages.webp'); /* Caminho da imagem */
     background-size: cover; /* Faz com que a imagem ocupe toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url('/src/assets/sites.jpg'); /* Caminho da imagem */
+    background-image: url('/src/assets/sites.webp'); /* Caminho da imagem */
     background-size: cover; /* Faz com que a imagem ocupe toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color 1s;
-    background-image: url('/src/assets/sites.jpg'); /* Caminho da imagem */
+    background-image: url('/src/assets/sites.webp'); /* Caminho da imagem */
     background-size: cover; /* Faz com que a imagem ocupe toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color 1s;
-    background-image: url('/src/assets/landingpages.jpg'); /* Caminho da imagem */
+    background-image: url('/src/assets/landingpages.webp'); /* Caminho da imagem */
     background-size: cover; /* Faz com que a imagem ocupe toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
