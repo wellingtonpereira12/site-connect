@@ -6,11 +6,18 @@ import Sobre from './Components/Section/Sobre/Sobre.jsx';
 import End from './Components/End/End.jsx';
 import Whats from './Components/Whats/Whats.jsx';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop.jsx';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './App.css'
 
 function App() {
   return (
+    <HelmetProvider>
       <div>
+        <Helmet>
+            <title>React Soluções - Desenvolvimento Web</title>
+            <link rel="canonical" href="https://reactsolucoes.com.br" />
+            <meta name="description" content="Oferecemos soluções em desenvolvimento web, focando na inovação e eficiência." />
+        </Helmet>
         <Navbar />
         <Home />
         <Servico />
@@ -20,6 +27,7 @@ function App() {
         <Whats />
         <ScrollToTop />
       </div>
+    </HelmetProvider>  
   )
 }
 
