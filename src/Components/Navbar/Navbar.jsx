@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../assets/ReactLogo.webp'
 import './Navbar.css'
+import { Instagram } from 'lucide-react';
 
 const Navbar = () => {
     const [active, setActive] = useState("nav_menu");
     const [toggleIcon, setToggleIcon] = useState("nav_toggler");
     const [scrolled, setScrolled] = useState(false);
+
+    const handleClickInsta = () => {
+        window.open(`https://www.instagram.com/reactsolucoes/`, '_blank');
+    };
 
     const navToggle =() =>{
         active === "nav_menu"
@@ -42,6 +47,9 @@ const Navbar = () => {
                     <li><a className={`a ${scrolled ? 'scrolled' : ''}`} href="#servico">Serviço</a></li>
                     <li><a className={`a ${scrolled ? 'scrolled' : ''}`} href="#sobre-nos">Sobre Nós</a></li>
                     <li><a className={`a ${scrolled ? 'scrolled' : ''}`} href="#duvidas">Dúvidas</a></li>
+                    <button onClick={handleClickInsta} className={`btnInsta ${scrolled ? 'scrolled' : ''}`}> 
+                        <Instagram /> Instagram
+                    </button>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
                    <div className="line1"></div>

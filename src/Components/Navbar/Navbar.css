@@ -148,6 +148,32 @@ a.scrolled{
     margin: 10px;
 }
 
+.btnInsta {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 0.5rem;
+    border: none; 
+    outline: none; 
+    border-radius: 1vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    padding: 0.5vw;
+    transition: background-color 0.3s ease;
+    font-family: 'Archivo';
+}
+
+.btnInsta:active {
+    background-color: black; 
+    color: white;
+    transform: scale(1);
+}
+
+.btnInsta.scrolled {
+    background-color: black;
+    color: white;
+}
 
 @media screen and (max-width: 1700px){
     .nav_toggler {
@@ -161,8 +187,14 @@ a.scrolled{
         height: 93vh;
         background: rgb(255, 255, 255);
         flex-direction: column;
-        transform: translateX(100%);
         transition: 0.5s ease-in;
+        transform: translateX(100%);
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2rem;
+        padding-top: 5vh;
+        font-size: 2.5vh;
     }
     .nav {
         background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
@@ -219,6 +251,16 @@ a.scrolled{
         text-decoration: none;
         color: rgb(68, 68, 68);
     }   
+    .btnInsta {
+        background-color: black; 
+        color: white;
+        padding: 1vw;
+    }
+    
+    .btnInsta:active {
+        background-color: white; 
+        color: black;
+    }
 }
 @media screen and (max-width: 386px){
 .DescrEmpresa{
