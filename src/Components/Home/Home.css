@@ -59,6 +59,31 @@
   }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.textoSobreposto,
+.textoSobrepostoDescr {
+  opacity: 0; /* Começa invisível */
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.textoSobrepostoPrinciapal {
+  text-align: center;
+  animation-delay: 0.2s; /* Atraso para criar o efeito de sincronização */
+}
+
+.textoSobrepostoDescr {
+  animation-delay: 0.4s; /* Atraso adicional para que a descrição apareça depois */
+}
 
 .botao-especialista {
   background-color: aliceblue;
