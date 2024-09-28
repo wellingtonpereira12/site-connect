@@ -197,12 +197,12 @@ a.scrolled{
         font-size: 2.5vh;
     }
     .nav {
-        background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
-        padding: 20px 0px; /* Ajuste o padding conforme necessário */
+        background-color: rgb(255, 255, 255);
+        padding: 30px 0px; 
     }
     .nav.scrolled {
-        background-color: rgb(255, 255, 255); /* Escurece o fundo ao rolar */
-        padding: 20px 0px; /* Ajuste o padding conforme necessário */
+        background-color: rgb(255, 255, 255); 
+        padding: 30px 0px; 
     }
     .logo {
         width: 60px; /* Defina a largura */
