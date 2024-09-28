@@ -274,12 +274,9 @@ a.scrolled{
 .nav_active{
     transform: translateX(0);  
 }
-.toggler .line1{
-    transform: rotate(-45deg) translate(-4px, 5px);
-}
-.toggler .line2{
-    opacity: 0;
-}
-.toggler .line3{
-    transform: rotate(45deg) translate(-4px, 5px);
+
+.NavIconBarraLateral{
+    width: 40px; /* ou qualquer valor desejado */
+    height: auto; /* mantém a proporção */   
+    color: rgb(68, 68, 68);
 }

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../assets/ReactLogo.webp'
 import './Navbar.css'
-import { Instagram } from 'lucide-react';
+import { Instagram, Menu, SquareX} from 'lucide-react';
+
 
 const Navbar = () => {
     const [active, setActive] = useState("nav_menu");
@@ -52,9 +53,11 @@ const Navbar = () => {
                     </button>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
-                   <div className="line1"></div>
-                   <div className="line2"></div>
-                   <div className="line3"></div>
+                    { toggleIcon == 'nav_toggler' ? (
+                        <Menu className='NavIconBarraLateral'/>
+                    ) : (
+                        <SquareX className='NavIconBarraLateral'/>
+                    )}
                 </div>
             </nav>
         </div>
