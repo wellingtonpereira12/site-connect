@@ -28,6 +28,11 @@ a.scrolled{
     color: rgb(68, 68, 68);
 }
 
+.FaWhatsapp {
+    width: 25px;
+    height: auto;
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -148,7 +153,7 @@ a.scrolled{
     margin: 10px;
 }
 
-.btnInsta {
+.btnNav {
     background-color: white;
     color: black;
     display: flex;
@@ -165,13 +170,13 @@ a.scrolled{
     cursor: pointer; 
 }
 
-.btnInsta:active {
+.btnNav:active {
     background-color: black; 
     color: white;
     transform: scale(1);
 }
 
-.btnInsta.scrolled {
+.btnNav.scrolled {
     background-color: black;
     color: white;
 }
@@ -252,13 +257,13 @@ a.scrolled{
         text-decoration: none;
         color: rgb(68, 68, 68);
     }   
-    .btnInsta {
+    .btnNav {
         background-color: black; 
         color: white;
         padding: 1vw;
     }
     
-    .btnInsta:active {
+    .btnNav:active {
         background-color: white; 
         color: black;
     }
