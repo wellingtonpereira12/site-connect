@@ -162,6 +162,7 @@ a.scrolled{
     padding: 0.5vw;
     transition: background-color 0.3s ease;
     font-family: 'Archivo';
+    cursor: pointer; 
 }
 
 .btnInsta:active {
